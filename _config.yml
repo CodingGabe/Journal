@@ -1,0 +1,15 @@
+# Site Settings
+title: Journal
+email: gabeamaya2@gmail.com
+description: >
+  My Journey as a Web Developer
+baseurl: "/Journal"
+url: "https://codinggabe.github.io/"
+twitter_username: King_Gabes
+github_username:  CodingGabe
+# Build Settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM

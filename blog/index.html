@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<h2>Blog</h2>
+{% for post in site.posts %}
+
+		<article class="article-excerpt">
+			<!-- <div class="article-img">
+				<img src="../gabe3.jpg" alt="Logo 3" class="img-responsive thumbnail">
+			</div> -->
+
+			<div>
+				<time>{{ post.date | date: "%b %-d, %Y" }}</time>
+				<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+				<p class="post">Intro from me and my journey of how I got here and where I'm going.</p>
+			</div>
+		</article>
+
+{% endfor %}
