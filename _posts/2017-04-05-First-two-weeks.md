@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "My First Day!"
-date:   2017-03-20 00:09:51
+title:  "The First 2 Weeks"
+date:   2017-04-05
 categories: Developer Web job first day
 ---
 
