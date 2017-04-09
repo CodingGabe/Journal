@@ -5,6 +5,8 @@ date:   2017-04-05
 categories: Developer Web job first day
 ---
 
+Beginning of my career as a Web Developer.
+
 # My First 2 weeks!
 
 Hey guys, if you are reading this you're too late. jk. Shout out to Drizzy Drake.
@@ -22,7 +24,7 @@ chance to use the free resources from the net to sharpen my Dev skills though.
 ## The Culture
 
 Enter, startup culture.  It is still taking me some time to adjust to free snacks
-in the kitchen, massages, having a chef cook meals and unlimited drinks to chose from.
+in the kitchen, massages, having a chef cook meals and unlimited drinks to choose from.
 At my last two jobs, people would've been savages to grab anything free. Also having
 a the ability to order any setup of my choosing. Of course I went with Mac Pro on a stand
 with smart mouse/keyboard and 27 inch Mac Monitor with standing desk. Love it. I'm
@@ -32,7 +34,7 @@ by the time I get done with a small tweak on a site.
 ## Average Day
 
 My daily routine is to come in. Browse [Reddit](https://www.reddit.com/) :), read emails,
-and log in to our company's project manager. Which is [Basecamp](https://basecamp.com/). I find a project that the designer or Sr. Dev left for me. I get there early, by the way, because of traffic. The designer will design a nice mockup and slack it to me throughout the day and I will development in my text editor or WordPress.
+and log in to our company's project manager. Which is [Basecamp](https://basecamp.com/). I find a project that the designer or Sr. Dev left for me. I get there early, by the way, because of traffic. The designer will design a nice mockup and slack it to me throughout the day and I will develop it in my text editor or WordPress.
 
 That's all for now, I will update after this week for more on my daily routine, but to conclude, I am really enjoying this rewarding career and encourage anyone who loves Web Dev or Design to go for it.
 

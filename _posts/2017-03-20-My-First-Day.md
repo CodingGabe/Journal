@@ -5,12 +5,11 @@ date:   2017-03-20 00:09:51
 categories: Developer Web job first day
 ---
 
-![Logo]({{ site.url }}/../code-flat.png)
+I was nervous to step into my first day as a professional Web Dev.
 
 ## My First day as a Jr. Front End Developer
 
-I was nervous to step into my first day as a professional Web Dev. I have been
-doing this for a little over a year and a half and yet I was still losing sleep
+I have been doing this for a little over a year and a half and yet I was still losing sleep
 over the fact that I didn't think I was good enough. The term commonly know as
 [Imposter Syndrome](https://davidwalsh.name/impostor-syndrome) comes to mind.
 
