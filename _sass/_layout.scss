@@ -97,7 +97,7 @@ time {
 }
 .center-img {
 	display: block;
-	margin: 0 auto;
+	margin: 25px auto 0 auto;
 }
 .hero {
 	background: url(../journal-hero.jpg) no-repeat center center;
@@ -128,6 +128,7 @@ aside {
 				position: relative;
 				a {
 					text-decoration: none;
+					cursor: pointer;
 					display: block;
 					padding: 15px;
 					font-family: 'Roboto', sans-serif;
@@ -153,4 +154,17 @@ aside {
 footer {
 	text-align: center;
 	padding: 40px;
+	color: $link-color;
+}
+
+article h2 {
+	margin-bottom: 0;
+}
+article h4 {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+span {
+	display: flex;
+	justify-content: center;
 }
