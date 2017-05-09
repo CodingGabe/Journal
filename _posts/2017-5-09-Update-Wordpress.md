@@ -7,7 +7,7 @@ categories: update
 
 A heads up on what's going down as my first month is complete!
 
-#WordPress
+# WordPress
 
 Yup, that's correct, lots of WordPress. I knew a little of the basics but the company is
 moving everything to WordPress, which is a good thing as they were using a completely outdated
@@ -24,4 +24,4 @@ landing pages. I have also been doing a lot of bug fixes and trying to figure ou
 that I won't have to ask too many questions. In time, I want to become a mid level Web Dev.
 
 I'm loving it still and continue to work on side projects at home using Jekyll and learning React. Thanks for reading
-I hope I can still help others achieve the dream. I will add tutorials soon. 
+I hope I can still help others achieve the dream. I will add tutorials soon.
