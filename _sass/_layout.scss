@@ -59,10 +59,7 @@ main {
 time {
 	color: #898989;
 }
-.container {
-	max-width: $content-width;
-	margin: 0 auto;
-}
+
 .thumbnail {
 	height: 150px;
 	width: 150px;
@@ -161,7 +158,11 @@ footer {
 	text-align: center;
 	padding: 40px;
 	color: $link-color;
+	.fa-heart {
+		color: #e74c3c;
+	}
 }
+
 
 article h2 {
 	margin-bottom: 0;
@@ -177,4 +178,10 @@ span {
 .journal-about {
 	display: flex;
 	flex-direction: column;
+}
+.status-yes {
+	color: #2ecc71;
+}
+.status-no {
+	color: #c0392b;
 }

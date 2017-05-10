@@ -1,0 +1,20 @@
+/* Simple Grid */
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.column {
+  flex-basis: 100%;
+}
+.container {
+	max-width: $content-width;
+	margin: 0 auto;
+}
+// Desktop
+@media screen and (min-width: 800px) {
+  .column {
+    flex: 1;
+  }
+}
