@@ -181,7 +181,12 @@ span {
 }
 .status-yes {
 	color: #2ecc71;
+	display: inline-flex;
 }
 .status-no {
 	color: #c0392b;
+	display: inline-flex;
+}
+.email {
+	margin: 1em 0;
 }
