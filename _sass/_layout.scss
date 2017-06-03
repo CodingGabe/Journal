@@ -77,17 +77,6 @@ time {
 .lead {
 	color: #8d8d8d;
 }
-.article-img {
-	align-self: flex-start;
-}
-.article-excerpt {
-	text-align: left;
-	display: flex;
-	flex-direction: row-reverse;
-	justify-content: flex-start;
-	align-content: space-between;
-	border-bottom: 1px solid #e2e2e2;
-}
 .post {
 	font-weight: 300;
 	color: #8d8d8d;
@@ -106,65 +95,53 @@ time {
 
 /* Aside */
 
-aside {
-	position: fixed;
-	top: 0;
-	left: 0;
-	background: #fff;
-	width: 100%;
-	z-index: 2;
-	border-bottom: 1px solid lighten($light, 30%);
-	box-shadow: 0px 1px 1px RGBA(4, 25, 54, .1);
-	nav {
-		float: left;
-		max-width: 800px;
-		margin: 0 auto;
-		ul {
-			margin: 0;
-			padding: 0;
-			list-style: none;
-			li {
-				float: left;
-				position: relative;
-				a {
-					text-decoration: none;
-					cursor: pointer;
-					display: block;
-					padding: 15px;
-					font-family: 'Roboto', sans-serif;
-					line-height: 20px;
-					margin-bottom: -1px;
-					box-shadow: 0;
-					&:hover,
-					&:active {
-						background: $header;
-						text-decoration: none;
-						color: $main;
-					}
-				}
-			}
-		}
-		&:after {
-			content: '';
-			display: table;
-			clear: both;
-		}
-	}
-}
+// aside {
+// 	position: fixed;
+// 	top: 0;
+// 	left: 0;
+// 	background: #fff;
+// 	width: 100%;
+// 	z-index: 2;
+// 	border-bottom: 1px solid lighten($light, 30%);
+// 	box-shadow: 0px 1px 1px RGBA(4, 25, 54, .1);
+// 	nav {
+// 		float: left;
+// 		max-width: 800px;
+// 		margin: 0 auto;
+// 		ul {
+// 			margin: 0;
+// 			padding: 0;
+// 			list-style: none;
+// 			li {
+// 				float: left;
+// 				position: relative;
+// 				a {
+// 					text-decoration: none;
+// 					cursor: pointer;
+// 					display: block;
+// 					padding: 15px;
+// 					font-family: 'Roboto', sans-serif;
+// 					line-height: 20px;
+// 					margin-bottom: -1px;
+// 					box-shadow: 0;
+// 					&:hover,
+// 					&:active {
+// 						background: $header;
+// 						text-decoration: none;
+// 						color: $main;
+// 					}
+// 				}
+// 			}
+// 		}
+// 		&:after {
+// 			content: '';
+// 			display: table;
+// 			clear: both;
+// 		}
+// 	}
+// }
 footer {
 	text-align: center;
 	padding: 40px;
 	color: $link-color;
-}
-
-article h2 {
-	margin-bottom: 0;
-}
-article h4 {
-	margin-top: 0;
-	margin-bottom: 10px;
-}
-span {
-	display: flex;
-	justify-content: center;
 }

@@ -1,15 +1,31 @@
-<aside>
-	<div class="container">
-		<nav>
-			<ul>
-				{% for page in site.pages %} {% if page.title %}
-				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-				{% endif %} {% endfor %}
-				<li><a href="{{ "/blog" | prepend: site.baseurl }}">Blog</a></li>
-			</ul>
-		</nav>
-	</div>
-</aside>
+<nav>
+ <div class="navbar navbar-fixed">
+ <input type="checkbox" id="navbar-checkbox">
+	 <div class="navbar-menu navbar-menu-alt">
+		 <ul class="navbar-navigation">
+			 <li class="navbar-header">
+				 <!-- dont really like a title for my page now -->
+				<!-- <a class="navbar-brand" href="#top">Portfolio</a> -->
+			 <label class="navbar-hamburger navbar-hamburger-spin"
+			 for="navbar-checkbox"> <span></span> </label>
+			 </li>
+			 {% for page in site.pages %} {% if page.title %}
+			 <li class="navbar-item active"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+			 {% endif %} {% endfor %}
+			 <li class="navbar-item"><a href="{{ "/blog" | prepend: site.baseurl }}">Blog</a></li>
+		 </ul>
+	 </div>
+ </div>
+</nav>
+
+	<!-- <nav>
+		<ul>
+			{% for page in site.pages %} {% if page.title %}
+			<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+			{% endif %} {% endfor %}
+			<li><a href="{{ "/blog" | prepend: site.baseurl }}">Blog</a></li>
+		</ul>
+	</nav> -->
 
 <header class="hero">
 	<h1><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
