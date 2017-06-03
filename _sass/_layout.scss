@@ -3,7 +3,7 @@ body {
 	color: $font-color;
 	font-family: $font-style;
 	font-size: 1.1em;
-	line-height: 1.6;
+	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
 }
 h1,
@@ -59,10 +59,7 @@ main {
 time {
 	color: #898989;
 }
-.container {
-	max-width: $content-width;
-	margin: 0 auto;
-}
+
 .thumbnail {
 	height: 150px;
 	width: 150px;
@@ -86,7 +83,13 @@ time {
 }
 .center-img {
 	display: block;
-	margin: 25px auto 0 auto;
+	margin: 0 auto;
+}
+.journal-img {
+	max-width: 250px;
+	max-height: 250px;
+	margin: 20px auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .hero {
 	background: url(../journal-hero.jpg) no-repeat center center;
@@ -144,4 +147,34 @@ footer {
 	text-align: center;
 	padding: 40px;
 	color: $link-color;
+	.fa-heart {
+		color: #e74c3c;
+	}
+}
+
+article h2 {
+	margin-bottom: 0;
+}
+article h4 {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+span {
+	display: flex;
+	justify-content: center;
+}
+.journal-about {
+	display: flex;
+	flex-direction: column;
+}
+.status-yes {
+	color: #2ecc71;
+	display: inline-flex;
+}
+.status-no {
+	color: #c0392b;
+	display: inline-flex;
+}
+.email {
+	margin: 1em 0;
 }
