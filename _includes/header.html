@@ -10,10 +10,10 @@
 			 for="navbar-checkbox"> <span></span> </label>
 			 </li>
 			 {% for page in site.pages %} {% if page.title %}
-			 <li class="navbar-item active"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+			 <li class="navbar-item active"><a href="{{ page.url | prepend: site.baseurl }}"><i class="pe-7s-gym"></i> {{ page.title }}</a></li>
 			 {% endif %} {% endfor %}
-			 <li class="navbar-item"><a href="{{ "/blog" | prepend: site.baseurl }}">Blog</a></li>
-       <li class="navbar-item"><a href="{{ site.url }}">Home</a></li>
+			 <li class="navbar-item"><a href="{{ "/blog" | prepend: site.baseurl }}"><i class="pe-7s-comment"></i> Blog</a></li>
+       <li class="navbar-item"><a href="{{ site.url }}"><i class="pe-7s-home"></i> Home</a></li>
 		 </ul>
 	 </div>
  </div>

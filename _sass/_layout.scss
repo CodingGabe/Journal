@@ -106,7 +106,8 @@ time {
 footer {
 	text-align: center;
 	padding: 40px;
-	color: $link-color;
+	color: $light;
+	background-color: $secondary;
 	.fa-heart {
 		color: #e74c3c;
 	}
