@@ -48,7 +48,6 @@ header {
 	margin: 50px 0 0;
 	height: 50vh;
 	display: flex;
-	justify-content: center;
 	align-items: center;
 }
 main {
@@ -113,13 +112,17 @@ footer {
 	}
 }
 
-article h2 {
-	margin-bottom: 0;
-}
-article h4 {
-	margin-top: 0;
+article {
+	margin: 60px 0;
+	h2 {
+		margin-bottom: 0;
+	}
+	h4 {
+		margin-top: 0;
 	margin-bottom: 10px;
+	}
 }
+
 span {
 	display: flex;
 	justify-content: center;
@@ -139,4 +142,25 @@ span {
 .email {
 	margin: 1em 0;
 	font-size: 1.5em;
+}
+
+.name-box {
+	background-color: $light;
+	padding: 10px 40px;
+	margin-left: 80px;
+	h1 {
+		margin: 0;
+		font-weight: 700;
+		letter-spacing: 2px;
+	}
+}
+
+@media (max-width: 567px) {
+	.name-box {
+		margin: 0 auto;
+		padding: 10px;
+		h1 {
+			font-size: 2em;
+		}
+	}
 }
