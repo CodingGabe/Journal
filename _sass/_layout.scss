@@ -6,28 +6,22 @@ body {
 	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
 }
-h1,
-h2,
-h3 {
-	font-weight: 600;
-	color: $heading-font-color;
-	font-family: $heading-font;
-	line-height: 1.5;
+header {
+	background: $header;
+	padding: 0px 15px;
+	text-align: center;
+	margin: 50px 0 0;
+	height: 50vh;
+	display: flex;
+	align-items: center;
 }
-h1 {
-	color: $main;
-	font-size: 2.5em;
-	a,
-	a:visited {
-		text-decoration: none;
-		color: $main;
-	}
-}
-h2 {
-	font-size: 2em;
-}
-p {
-	font-weight: 200;
+// main {
+// 	padding: 0 15px;
+// 	max-width: $content-width;
+// 	margin: 0 auto;
+// }
+time {
+	color: #898989;
 }
 a,
 a:visited {
@@ -41,24 +35,6 @@ a:hover {
 	text-decoration: underline;
   transform: scale(1.1);
 }
-header {
-	background: $header;
-	padding: 0px 15px;
-	text-align: center;
-	margin: 50px 0 0;
-	height: 50vh;
-	display: flex;
-	align-items: center;
-}
-main {
-	padding: 0 15px;
-	max-width: $content-width;
-	margin: 0 auto;
-}
-time {
-	color: #898989;
-}
-
 .thumbnail {
 	height: 150px;
 	width: 150px;
@@ -85,6 +61,7 @@ time {
 	margin: 0 auto;
 }
 .journal-img {
+	display: flex;
 	max-width: 250px;
 	max-height: 250px;
 	margin: 20px auto;
@@ -113,7 +90,6 @@ footer {
 }
 
 article {
-	margin: 60px 0;
 	h2 {
 		margin-bottom: 0;
 	}
@@ -158,10 +134,37 @@ span {
 #projects {
 	background-color: #f7f7f7;
 	color: $font-color;
-	margin: 60px 0;
 	text-align: center;
+	img {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	}
 }
 
+.project-section {
+	margin: 1.5em 0;
+}
+.gabe-message {
+	background-color: $main;
+	color: $light;
+	text-align: center;
+	padding: 40px 0;
+	#wild {
+		color: $light;
+		font-weight: 700;
+		line-height: 1.1;
+		font-size: 1.375em;
+		letter-spacing: 0;
+		text-transform: uppercase;
+		margin-top: 0;
+	}
+	p {
+		font-size: .688em;
+    	font-weight: 300;
+    	text-transform: uppercase;
+		letter-spacing: 7px;
+		margin-bottom: 0;
+	}
+}
 @media (max-width: 567px) {
 	.name-box {
 		margin: 0 auto;

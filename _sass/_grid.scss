@@ -13,6 +13,10 @@
 	margin: 0 auto;
 }
 
+section {
+  padding: 60px 0;
+}
+
 // Desktop
 @media screen and (min-width: 800px) {
   .column {
