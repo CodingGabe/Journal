@@ -130,12 +130,14 @@ span {
 		letter-spacing: 2px;
 	}
 }
-
+.about-me {
+	padding: 40px 0;
+}
 #projects {
 	background-color: #f7f7f7;
 	color: $font-color;
 	text-align: center;
-	img {
+	.shadow {
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	}
 }
