@@ -30,6 +30,29 @@
   height: 250px;
   margin: auto;
 }
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: $secondary;
+  clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
+  color: $primary;
+  h3 {
+    color: $primary;
+  }
+}
+.container-fluid-alt {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #f7f7f7;
+}
 
 // Desktop
 @media screen and (min-width: 800px) {
@@ -54,9 +77,9 @@
     margin-left: auto;
     background-color: $secondary;
     clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
-    color: $white;
+    color: $primary;
     h3 {
-      color: $white;
+      color: $primary;
     }
   }
   .container-fluid-alt {

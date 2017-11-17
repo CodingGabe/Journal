@@ -15,11 +15,11 @@ header {
 	display: flex;
 	align-items: center;
 }
-// main {
-// 	padding: 0 15px;
-// 	max-width: $content-width;
-// 	margin: 0 auto;
-// }
+.main {
+	padding: 0 15px;
+	max-width: $content-width;
+	margin: 0 auto;
+}
 time {
 	color: #898989;
 }
@@ -82,8 +82,8 @@ a:hover {
 footer {
 	text-align: center;
 	padding: 40px;
-	color: $light;
-	background-color: $secondary;
+	color: $white;
+	background-color: $primary;
 	.fa-heart {
 		color: #e74c3c;
 	}
@@ -142,7 +142,7 @@ span {
 	}
 }
 .gabe-message {
-	background-color: $main;
+	background-color: $primary;
 	color: $light;
 	text-align: center;
 	padding: 40px 0;
@@ -169,6 +169,14 @@ span {
 		padding: 10px;
 		h1 {
 			font-size: 2em;
+		}
+	}
+	.gabe-message {
+		#wild {
+			font-size: 1.1em;
+		}
+		p {
+			font-size: .6em;
 		}
 	}
 }
