@@ -2,11 +2,17 @@
 layout: journal
 ---
 
-<h2>Blog</h2>
-{% for post in site.posts %}
+<section>
+    <div class="container">
+            <h2>Blog</h2>
+            {% for post in site.posts %}
+            
+            <time>{{ post.date | date: "%b %-d, %Y" }}</time>
+            <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+            <p class="post">{{ post.excerpt }}</p>
+            
+            {% endfor %}
+    </div>       
+</section>
 
-<time>{{ post.date | date: "%b %-d, %Y" }}</time>
-<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-<p class="post">{{ post.excerpt }}</p>
 
-{% endfor %}

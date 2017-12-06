@@ -1,4 +1,7 @@
 /* Simple Grid */
+html {
+  background-color: #f7f7f7;
+}
 main {
   background-color: #f7f7f7;
 }
@@ -6,6 +9,10 @@ main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+section {
+  background-color: #f7f7f7;
+  padding: 40px 0;
 }
 .row-primary {
   background-color: $secondary;
@@ -22,7 +29,9 @@ main {
 }
 .container {
 	max-width: $content-width;
-	margin: 0 auto;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 .project-container {
   max-width: 900px;
